@@ -4,4 +4,5 @@ Dark mode is supported.
 MVVM architecture used.
 Room DB
 
-im2.ezgif.com/tmp/ezgif-2-7260998db8bf.gif
+![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-7260998db8bf.gif)
+
