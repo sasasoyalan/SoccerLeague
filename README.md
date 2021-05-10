@@ -4,5 +4,5 @@ Dark mode is supported.
 MVVM architecture used.
 Room DB
 
-![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-7260998db8bf.gif)
+[![WhatsApp-Video-2021-05-10-at-10.45.33.gif](https://s3.gifyu.com/images/WhatsApp-Video-2021-05-10-at-10.45.33.gif)](https://gifyu.com/image/5j4E)
 
