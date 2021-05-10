@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:id="@+id/item_fixture_container"
+    android:background="@color/mainBackground"
+    android:weightSum="1.0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/mainBackground"
+        android:weightSum="1.0"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/id_que"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="@color/mainText"
+            android:textSize="13sp"
+            android:text="#">
+        </TextView>
+
+        <TextView
+            android:id="@+id/id_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textColor="@color/mainText"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="Home Team">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="@color/mainText"
+            android:textSize="12sp"
+            android:text="vs">
+        </TextView>
+
+        <TextView
+            android:id="@+id/away_team"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textColor="@color/mainText"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="Away Team">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

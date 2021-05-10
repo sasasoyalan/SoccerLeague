@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Huawei Soccer League</string>
+    <string name="key">isItFirst</string>
+    <string name="deafultKey">0</string>
+    <string name="soccer_league">Soccer League</string>
+    <string name="team_list">Team List</string>
+    <string name="league_table">League Table</string>
+    <string name="fixture">Fixture</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>

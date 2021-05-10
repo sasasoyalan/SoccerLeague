@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/soccer_nav_graph"
+    app:startDestination="@id/teamListFragment">
+
+    <fragment
+        android:id="@+id/teamListFragment"
+        android:name="com.sssoyalan.soccerleague.ui.fragments.TeamListFragment"
+        android:label="TeamListFragment" >
+        <action
+            android:id="@+id/action_teamListFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/tableFragment"
+        android:name="com.sssoyalan.soccerleague.ui.fragments.TableFragment"
+        android:label="TableFragment" >
+        <action
+            android:id="@+id/action_tableFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fixtureFragment"
+        android:name="com.sssoyalan.soccerleague.ui.fragments.FixtureFragment"
+        android:label="FixtureFragment" >
+        <action
+            android:id="@+id/action_fixtureFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailFragment"
+        android:name="com.sssoyalan.soccerleague.ui.fragments.TeamDetailFragment"
+        android:label="TeamDetailFragment" >
+        <argument
+            android:name="team"
+            app:argType="com.sssoyalan.soccerleague.models.Result" />
+    </fragment>
+</navigation>

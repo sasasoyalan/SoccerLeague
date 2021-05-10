@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:id="@+id/item_table_container"
+    android:background="@color/mainBackground"
+    android:weightSum="1.0">
+
+    <TextView
+        android:id="@+id/id_que"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textColor="@color/mainText"
+        android:textSize="13sp"
+        android:text="#">
+    </TextView>
+
+    <TextView
+        android:id="@+id/id_team"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="@color/mainText"
+        android:textSize="12sp"
+        android:text="TEAM">
+    </TextView>
+
+    <TextView
+        android:id="@+id/id_mp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textColor="@color/mainText"
+        android:textSize="12sp"
+        android:text="MP">
+    </TextView>
+
+    <TextView
+        android:id="@+id/id_w"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textColor="@color/mainText"
+        android:textSize="12sp"
+        android:text="W">
+    </TextView>
+
+    <TextView
+        android:id="@+id/id_l"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textColor="@color/mainText"
+        android:textSize="12sp"
+        android:text="L">
+    </TextView>
+
+    <TextView
+        android:id="@+id/id_pts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textColor="@color/mainText"
+        android:textSize="12sp"
+        android:text="PTS">
+    </TextView>
+
+
+</LinearLayout>
